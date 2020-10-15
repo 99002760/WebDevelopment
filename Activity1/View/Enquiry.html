@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry Page</title>
+    <style>
+    body{
+        background-color:khaki;
+        color:black;
+    }
+    h1{
+        text-align:left;
+        font-size: xx-large;
+        padding: 10px;
+        margin: 30px;
+    }
+    nav{
+        background-color:saddlebrown;
+        padding: 25px;
+        margin: 20px;
+        text-align: center;
+    }
+    a{
+        width: 120px;
+        height: 50px;
+        background-color: bisque;
+        color:crimson;
+        padding: 10px;
+        margin: 20px;
+        font-size:24pt;
+    }
+    a:hover{
+        background-color:olivedrab;
+    }
+    button{
+     text-align:left;
+     font-size: large;
+     padding:20px;
+  }
+   p{
+     text-align:left;
+     font-size: large;
+     padding:20px;
+  }
+  </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./Home.html">Home</a>
+            <a href="./About.html">About</a>
+            <a href="./Rooms.html">Rooms</a>
+            <a href="./Facilities.html">Facilities</a>
+            <a href="./Enquiry.html">Enquiry</a>
+        </nav>
+    </header>
+    <section>
+        <h1>Hi!Ready to Visit?</h1>
+       </section>
+    <section>
+        <form>
+           <p> Name:<input type="text" placeholder="Enter your name" id="Name" /></p>
+           <p> Contact No:<input type="tel" placeholder="Enter your phone number" id="Phone" /></p>
+           <p> Email:<input type="email" placeholder="Enter your email" id="Mail" /></p>
+           <p>Check-in: <input type="date" placeholder="Arrival date" id="Checkindate" /></p>
+           <p>Days of stay: <input type="text" placeholder="Enter your days of stay" id="Noofdays" /></p>
+           <p>
+               Select your food styles:<br/>
+               <input type="checkbox">Vegan
+               <input type="checkbox">Vegetarian
+               <input type="checkbox">Paleo
+               <input type="checkbox">Chinese
+               <input type="checkbox">Non-Vegetarian
+           </p>
+           <p>
+            Select your life styles:<br/>
+            <input type="checkbox">Swimming Pool
+            <input type="checkbox">Fitness Centre
+            <input type="checkbox">Gaming Zone
+            <input type="checkbox">Spa
+            <input type="checkbox">Sports
+        </p>
+        <p>
+            Pick-Drop from Airport:<input type="radio" name="bill">Yes<input type="radio" name="bill">No
+        </p>
+           <button type="button">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
